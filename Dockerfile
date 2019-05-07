@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-LABEL "com.github.actions.name"="Pixela increment"
+LABEL "com.github.actions.name"="Pixela pi"
 LABEL "com.github.actions.description"="GitHub Actions for Pixela (a-know/pi)"
 LABEL "com.github.actions.icon"="activity"
 LABEL "com.github.actions.color"="green"
