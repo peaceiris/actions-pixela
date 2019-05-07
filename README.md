@@ -9,7 +9,7 @@
 - [Pixela | Record and Track your habits or effort. All by API.](https://pixe.la/)
 - [a-know/pi: Official CLI tool for Pixela](https://github.com/a-know/pi)
 
-[![GitHub Actions for Pixela](./ogp.svg)](https://github.com/peaceiris/actions-pixela)
+<img width="400" alt="GitHub Actions for Pixela" src="https://repository-images.githubusercontent.com/185308087/eba9ad00-70e8-11e9-8699-18ca2f9d6b79">
 
 
 
