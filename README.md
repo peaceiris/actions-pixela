@@ -1,2 +1,1 @@
-# actions-pixela
-GitHub Actions for Pixela (a-know/pi)
+## GitHub Actions for Pixela (a-know/pi)
