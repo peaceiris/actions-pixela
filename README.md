@@ -34,6 +34,12 @@ action "pixela" {
 
 
 
+## Example
+
+[![peaceiris push count](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push.html)
+
+
+
 ## License
 
 [MIT License - peaceiris/actions-pixela]
