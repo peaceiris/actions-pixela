@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-LABEL "com.github.actions.name"="Pixela"
+LABEL "com.github.actions.name"="Pixela increment"
 LABEL "com.github.actions.description"="GitHub Actions for Pixela (a-know/pi)"
 LABEL "com.github.actions.icon"="activity"
 LABEL "com.github.actions.color"="green"
@@ -18,6 +18,5 @@ RUN wget "${PI_URL}" && \
     tar -zxvf "${PI_NAME}.tar.gz" && \
     mv "${PI_NAME}/pi" /usr/local/bin/pi && \
     rm -rf "${PI_NAME}.tar.gz" "${PI_NAME}"
-
 
 ENTRYPOINT ["/usr/local/bin/pi"]
