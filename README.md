@@ -38,7 +38,9 @@ action "pixela" {
 
 ## Example
 
-[![peaceiris push count](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push.html)
+Push count of peaceiris's blog repository (private repository)
+
+[![Push count of peaceiris's blog repository (private repository)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push.html)
 
 
 
