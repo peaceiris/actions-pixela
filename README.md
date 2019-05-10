@@ -50,3 +50,9 @@ Push count of peaceiris's blog repository (private repository)
 [MIT License - peaceiris/actions-pixela]
 
 [MIT License - peaceiris/actions-pixela]: https://github.com/peaceiris/actions-pixela/blob/master/LICENSE
+
+
+
+## Supprt author
+
+- [peaceiris - Patreon](https://www.patreon.com/peaceiris)
