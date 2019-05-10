@@ -17,7 +17,8 @@
 
 ### (1) Add secret variables
 
-- `PIXELA_USER_TOKEN`
+1. Go to Settings > Secrets.
+2. Add your `PIXELA_USER_TOKEN` as a new secret.
 
 ### (2) Create `main.workflow`
 
