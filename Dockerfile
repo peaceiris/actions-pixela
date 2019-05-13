@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.9
 
 LABEL "com.github.actions.name"="Pixela pi"
 LABEL "com.github.actions.description"="GitHub Actions for Pixela (a-know/pi)"
