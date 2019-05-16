@@ -22,7 +22,7 @@
 
 ### (2) Create `main.workflow`
 
-```sh
+```hcl
 workflow "Main workflow" {
   on = "push"
   resolves = ["pixela"]
