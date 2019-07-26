@@ -29,7 +29,7 @@ workflow "Main workflow" {
 }
 
 action "pixela" {
-  uses = "peaceiris/actions-pixela@v1.0.3"
+  uses = "peaceiris/actions-pixela@v1.1.0"
   secrets = ["PIXELA_USER_TOKEN"]
   args = ["pixel", "increment", "-u", "<username>", "-g", "<graph-id>"]
 }

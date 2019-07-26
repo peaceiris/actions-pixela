@@ -9,7 +9,7 @@ LABEL "repository"="https://github.com/peaceiris/actions-pixela"
 LABEL "homepage"="https://github.com/peaceiris/actions-pixela"
 LABEL "maintainer"="peaceiris"
 
-ENV PI_VERSION='v1.0.3'
+ENV PI_VERSION='v1.1.0'
 ENV PI_NAME="pi_${PI_VERSION}_linux_amd64"
 ENV PI_URL="https://github.com/a-know/pi/releases/download/${PI_VERSION}/${PI_NAME}.tar.gz"
 
