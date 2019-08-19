@@ -1,6 +1,7 @@
 [![license](https://img.shields.io/github/license/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/blob/master/LICENSE)
 [![release](https://img.shields.io/github/release/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases/latest)
 [![GitHub release date](https://img.shields.io/github/release-date/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases)
+[![GitHub Actions status](https://github.com/peaceiris/actions-pixela/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/peaceiris/actions-pixela/actions)
 
 
 
