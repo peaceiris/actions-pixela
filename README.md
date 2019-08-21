@@ -1,6 +1,7 @@
 [![license](https://img.shields.io/github/license/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/blob/master/LICENSE)
 [![release](https://img.shields.io/github/release/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases/latest)
 [![GitHub release date](https://img.shields.io/github/release-date/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases)
+[![GitHub Actions status](https://github.com/peaceiris/actions-pixela/workflows/Docker%20Image%20CI/badge.svg)](https://github.com/peaceiris/actions-pixela/actions)
 
 
 
@@ -20,19 +21,26 @@
 1. Go to Settings > Secrets.
 2. Add your `PIXELA_USER_TOKEN` as a new secret.
 
-### (2) Create `main.workflow`
+### (2) Create `.github/workflows/pixela.yml`
 
-```hcl
-workflow "Main workflow" {
-  on = "push"
-  resolves = ["pixela"]
-}
+```yaml
+name: pixela
 
-action "pixela" {
-  uses = "peaceiris/actions-pixela@v1.1.0"
-  secrets = ["PIXELA_USER_TOKEN"]
-  args = ["pixel", "increment", "-u", "<username>", "-g", "<graph-id>"]
-}
+on: push
+
+jobs:
+
+  increment:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@master
+    - name: increment
+      uses: peaceiris/actions-pixela@v1.1.0
+      if: github.event.deleted == false
+      env:
+        PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
+      with:
+        args: pixel increment -u <username> -g <graph-id>
 ```
 
 
