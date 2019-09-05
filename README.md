@@ -26,7 +26,10 @@
 ```yaml
 name: pixela
 
-on: push
+on:
+  push:
+    branches:
+    - master
 
 jobs:
 
@@ -34,9 +37,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
+
     - name: increment
       uses: peaceiris/actions-pixela@v1.1.0
-      if: github.event.deleted == false
       env:
         PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
       with:
