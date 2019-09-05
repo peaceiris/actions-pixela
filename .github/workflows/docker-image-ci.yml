@@ -2,8 +2,8 @@ name: Docker Image CI
 
 on:
   push:
-    tags:
-    - invalid-tag
+    branches:
+    - master
 
 jobs:
   test:
@@ -13,7 +13,6 @@ jobs:
     - uses: actions/checkout@master
 
     - name: build
-      if: github.event.deleted == false
       env:
         DOCKER_IMAGE: ${{ github.repository }}:${{ github.sha }}
       run: |
