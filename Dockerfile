@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.10.2
 
 ENV PI_VERSION='v1.1.0'
 ENV PI_NAME="pi_${PI_VERSION}_linux_amd64"
