@@ -1,0 +1,9 @@
+name: 'Pixela pi'
+description: 'GitHub Actions for Pixela (a-know/pi)'
+author: 'peaceiris'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'activity'
+  color: 'green'
