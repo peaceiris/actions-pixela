@@ -21,7 +21,7 @@ jobs:
         (echo -e "\e[31m[${GITHUB_WORKFLOW}] failed to build\e[m" && exit 1)
 
   hadolint:
-    runs-on: macOS-10.14
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@master
     - name: hadolint
