@@ -39,7 +39,7 @@ jobs:
     - uses: actions/checkout@v1
 
     - name: increment
-      uses: peaceiris/actions-pixela@v1.1.0
+      uses: peaceiris/actions-pixela@v1
       env:
         PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
       with:
