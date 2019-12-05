@@ -36,7 +36,7 @@ jobs:
   increment:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v1
 
     - name: increment
       uses: peaceiris/actions-pixela@v1.1.0
