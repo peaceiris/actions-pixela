@@ -8,23 +8,21 @@ on:
 jobs:
   test:
     runs-on: ubuntu-18.04
-
+    env:
+      DOCKER_IMAGE: ${{ github.repository }}:${{ github.sha }}
     steps:
-    - uses: actions/checkout@master
 
-    - name: build
-      env:
-        DOCKER_IMAGE: ${{ github.repository }}:${{ github.sha }}
-      run: |
-        docker build . --file Dockerfile --tag ${DOCKER_IMAGE} &&
-        docker run ${DOCKER_IMAGE} version ||
-        (echo -e "\e[31m[${GITHUB_WORKFLOW}] failed to build\e[m" && exit 1)
+    - uses: actions/checkout@v1
+
+    - name: Build
+      run: docker build . --file Dockerfile --tag ${DOCKER_IMAGE}
+
+    - name: Print version
+      run: docker run ${DOCKER_IMAGE} version
 
   hadolint:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@master
-    - name: hadolint
-      run: |
-        brew install hadolint
-        hadolint ./Dockerfile
+    - uses: actions/checkout@v1
+    - run: brew install hadolint
+    - run: hadolint ./Dockerfile
