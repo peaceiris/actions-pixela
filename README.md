@@ -25,8 +25,10 @@
   - [(1) Add secret variables](#1-add-secret-variables)
   - [(2) Create `.github/workflows/pixela.yml`](#2-create-githubworkflowspixelayml)
 - [Example Graphs](#example-graphs)
+- [CHANGELOG](#changelog)
 - [License](#license)
 - [About Maintainer](#about-maintainer)
+- [Maintainer Notes](#maintainer-notes)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -66,6 +68,10 @@ jobs:
           args: pixel increment -u <username> -g <graph-id>
 ```
 
+<div align="right">
+<a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
+
 
 
 ## Example Graphs
@@ -88,11 +94,21 @@ peaceiris blog repository (private)
 
 [![Push count of peaceiris's blog repository (private repository)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push.html)
 
+<div align="right">
+<a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
+
+
+
+## CHANGELOG
+
+- [CHANGELOG.md](CHANGELOG.md)
+
 
 
 ## License
 
-[MIT License - peaceiris/actions-pixela]
+- [MIT License - peaceiris/actions-pixela]
 
 [MIT License - peaceiris/actions-pixela]: https://github.com/peaceiris/actions-pixela/blob/master/LICENSE
 
@@ -101,3 +117,29 @@ peaceiris blog repository (private)
 ## About Maintainer
 
 - [peaceiris homepage](https://peaceiris.com/)
+
+
+
+## Maintainer Notes
+
+Run `npm` and `git commit` commands on a container.
+
+**On Host**
+
+```sh
+# Docker
+make build
+make run
+make run cmd="env"
+make test
+make commit msg="chore: Add Makefile"
+
+# Release
+./release.sh
+```
+
+
+
+<div align="right">
+<a href="#table-of-contents">Back to TOC ☝️</a>
+</div>
