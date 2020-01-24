@@ -57,7 +57,6 @@ on:
       - master
 
 jobs:
-
   increment:
     runs-on: ubuntu-18.04
     steps:
@@ -86,7 +85,6 @@ on:
       - master
 
 jobs:
-
   test:
     runs-on: ${{ matrix.os }}
     strategy:
@@ -103,7 +101,6 @@ jobs:
           - os: 'windows-latest'
             graph_id: 'gha-pi-ci-win'
     steps:
-
       - uses: actions/checkout@v2
 
       - name: Setup pi
