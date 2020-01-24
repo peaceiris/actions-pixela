@@ -16,9 +16,3 @@ All notable changes to this project will be documented in this file. See [standa
 ### feat
 
 * Migrate to Typescript Action (#7) ([3994c51](https://github.com/peaceiris/actions-pixela/commit/3994c51f700c389f5f31f064372651c4697dccf9)), closes [#7](https://github.com/peaceiris/actions-pixela/issues/7)
-
-
-
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
