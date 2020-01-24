@@ -28,6 +28,13 @@ jobs:
           - 'ubuntu-18.04'
           - 'macos-latest'
           - 'windows-latest'
+        include:
+          - os: 'ubuntu-18.04'
+            graph_id: 'gha-pi-ci-linux'
+          - os: 'macos-latest'
+            graph_id: 'gha-pi-ci-macos'
+          - os: 'windows-latest'
+            graph_id: 'gha-pi-ci-win'
     steps:
 
       - uses: actions/checkout@v2
@@ -79,3 +86,14 @@ jobs:
       - uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+
+      - name: Setup pi
+        uses: peaceiris/actions-pixela@v2.0.0-2
+        with:
+          pi_version: '1.1.0'
+
+      - name: Increment
+        env:
+          PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
+        run: |
+          pi pixel increment -u peaceiris -g '${{ matrix.graph_id }}'
