@@ -15,6 +15,25 @@
 
 
 
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [Getting started](#getting-started)
+  - [(1) Add secret variables](#1-add-secret-variables)
+  - [(2) Create `.github/workflows/pixela.yml`](#2-create-githubworkflowspixelayml)
+- [Example Graphs](#example-graphs)
+- [License](#license)
+- [About Maintainer](#about-maintainer)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+*TOC is generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+
+
 ## Getting started
 
 ### (1) Add secret variables
@@ -49,9 +68,23 @@ jobs:
 
 
 
-## Example
+## Example Graphs
 
-Push count of peaceiris's blog repository (private repository)
+*CI Test on Linux Passed*
+
+[![GitHub Actions for Pixela CI Linux](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-linux)](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-linux.html)
+
+*CI Test on macOS Passed*
+
+[![GitHub Actions for Pixela CI macOS](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-macos)](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-macos.html)
+
+*CI Test on Windows Passed*
+
+[![GitHub Actions for Pixela CI Windows](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-win)](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-win.html)
+
+*Git Push Count*
+
+peaceiris blog repository (private)
 
 [![Push count of peaceiris's blog repository (private repository)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push.html)
 
@@ -65,6 +98,6 @@ Push count of peaceiris's blog repository (private repository)
 
 
 
-## About the author
+## About Maintainer
 
-- [peaceiris's homepage](https://peaceiris.com/)
+- [peaceiris homepage](https://peaceiris.com/)
