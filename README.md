@@ -22,8 +22,9 @@
 **Table of Contents**
 
 - [Getting started](#getting-started)
-  - [(1) Add secret variables](#1-add-secret-variables)
-  - [(2) Create `.github/workflows/pixela.yml`](#2-create-githubworkflowspixelayml)
+  - [Add Pixela User Token](#add-pixela-user-token)
+  - [Example Workflow](#example-workflow)
+  - [Matrix build](#matrix-build)
 - [Example Graphs](#example-graphs)
 - [CHANGELOG](#changelog)
 - [License](#license)
@@ -38,12 +39,14 @@
 
 ## Getting started
 
-### (1) Add secret variables
+### Add Pixela User Token
 
 1. Go to Settings > Secrets.
 2. Add your `PIXELA_USER_TOKEN` as a new secret.
 
-### (2) Create `.github/workflows/pixela.yml`
+### Example Workflow
+
+Workflow file: `.github/workflows/pixela.yml`
 
 ```yaml
 name: pixela
@@ -60,12 +63,59 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: increment
-        uses: peaceiris/actions-pixela@v1
+      - name: Setup a-know/pi
+        uses: peaceiris/actions-pixela@v2
+        with:
+          pi_version: '1.1.0'
+
+      - name: Increment
         env:
           PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
+        run: |
+          pi pixel increment -u <username> -g <graph-id>
+```
+
+### Matrix build
+
+```yaml
+name: 'Test'
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os:
+          - 'ubuntu-18.04'
+          - 'macos-latest'
+          - 'windows-latest'
+        include:
+          - os: 'ubuntu-18.04'
+            graph_id: 'gha-pi-ci-linux'
+          - os: 'macos-latest'
+            graph_id: 'gha-pi-ci-macos'
+          - os: 'windows-latest'
+            graph_id: 'gha-pi-ci-win'
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Setup pi
+        uses: peaceiris/actions-pixela@v2
         with:
-          args: pixel increment -u <username> -g <graph-id>
+          pi_version: '1.1.0'
+
+      - name: Increment
+        env:
+          PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
+        run: |
+          pi pixel increment -u <username> -g '${{ matrix.graph_id }}'
 ```
 
 <div align="right">
