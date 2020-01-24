@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0-2](https://github.com/peaceiris/actions-pixela/compare/v2.0.0-1...v2.0.0-2) (2020-01-24)
+
+
+### chore
+
+* remove extra title ([5000533](https://github.com/peaceiris/actions-pixela/commit/50005339b1f506cf5988d0321d5bfeaf656376c7))
+
+### ci
+
+* Add codecov/codecov-action@v1 ([8043038](https://github.com/peaceiris/actions-pixela/commit/8043038ddea9093f41e02ead40810fec03bd2181))
+
+### fix
+
+* Add runs.main [skip ci] ([3b265ed](https://github.com/peaceiris/actions-pixela/commit/3b265eda9603d02b8030fade1b054347c82ed42b))
+
+
+
 # [2.0.0-1](https://github.com/peaceiris/actions-pixela/compare/v1.2.0...v2.0.0-1) (2020-01-24)
 
 
