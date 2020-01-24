@@ -1,7 +1,7 @@
-.git
-.github
-.hadolint.yaml
-LICENSE
-README.md
-action.yml
-images
+.*
+
+!.eslintrc.json
+!.prettierrc.json
+
+coverage
+node_modules
