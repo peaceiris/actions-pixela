@@ -1,9 +1,14 @@
 name: 'Pixela pi action'
 description: 'GitHub Actions for Pixela (a-know/pi)'
 author: 'peaceiris'
+inputs:
+  pi_version:
+    description: 'A pi version to download (if necessary) and use.'
+    required: true
+    default: '1.1.0'
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: 'node12'
+  image: 'lib/index.js'
 branding:
   icon: 'activity'
   color: 'green'
