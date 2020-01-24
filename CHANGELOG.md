@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.0.0](https://github.com/peaceiris/actions-pixela/compare/v2.0.0-2...v2.0.0) (2020-01-24)
+
+
+### ci
+
+* Add Increment step (#8) ([6fad707](https://github.com/peaceiris/actions-pixela/commit/6fad7075b715e010c6987bc714a32773f0d7c07b)), closes [#8](https://github.com/peaceiris/actions-pixela/issues/8)
+
+### docs
+
+* Add codecov badge ([aaf7723](https://github.com/peaceiris/actions-pixela/commit/aaf77233bfae7f7021c0d333bdb91fa2522175f3))
+* Add Maintainer Notes ([315b885](https://github.com/peaceiris/actions-pixela/commit/315b88580e81a1c75773261c9486f5c02005e656))
+* update Example Graphs ([a98883f](https://github.com/peaceiris/actions-pixela/commit/a98883f8339d5130bf89190c01321ec815145970))
+* update Getting started ([977064d](https://github.com/peaceiris/actions-pixela/commit/977064de800c172809ae41254b80bfc9742bc555))
+* update GitHub Actions status badge ([6021115](https://github.com/peaceiris/actions-pixela/commit/60211157beb8a8aae5cd7f70ebbf3d6f89ff67ee))
+
+### fix
+
+* action failure status (#9) ([15ae610](https://github.com/peaceiris/actions-pixela/commit/15ae610bba7a6b5209e1fdbb14d2fb14efb4a4f8)), closes [#9](https://github.com/peaceiris/actions-pixela/issues/9)
+
+
+
 # [2.0.0-2](https://github.com/peaceiris/actions-pixela/compare/v2.0.0-1...v2.0.0-2) (2020-01-24)
 
 
