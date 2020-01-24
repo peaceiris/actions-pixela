@@ -76,18 +76,6 @@ jobs:
           name: coverage
           path: coverage
 
-      # - uses: codecov/codecov-action@v1
-      #   with:
-      #     token: ${{ secrets.CODECOV_TOKEN }}
-
-      # - name: Upload test coverage to Coveralls
-      #   uses: coverallsapp/github-action@v1.0.1
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     parallel: true
-
-      # - name: Coveralls Finished
-      #   uses: coverallsapp/github-action@v1.0.1
-      #   with:
-      #     github-token: ${{ secrets.GITHUB_TOKEN }}
-      #     parallel-finished: true
+      - uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
