@@ -11,6 +11,8 @@
 - [Pixela | Record and Track your habits or effort. All by API.](https://pixe.la/)
 - [a-know/pi: Official CLI tool for Pixela](https://github.com/a-know/pi)
 
+This **Pixela Setup Action** can install **a-know/pi** to a virtual machine of GitHub Actions. Linux (Ubuntu), macOS, and Windows are supported.
+
 <img width="400" alt="GitHub Actions for Pixela" src="./images/ogp.svg">
 
 
