@@ -29,21 +29,21 @@ name: pixela
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
 
   increment:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
 
-    - name: increment
-      uses: peaceiris/actions-pixela@v1
-      env:
-        PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
-      with:
-        args: pixel increment -u <username> -g <graph-id>
+      - name: increment
+        uses: peaceiris/actions-pixela@v1
+        env:
+          PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
+        with:
+          args: pixel increment -u <username> -g <graph-id>
 ```
 
 
