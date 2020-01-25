@@ -8,6 +8,8 @@
 
 ## GitHub Actions for Pixela (a-know/pi)
 
+<img width="400" alt="GitHub Actions for Pixela" src="./images/ogp.svg">
+
 - [Pixela | Record and Track your habits or effort. All by API.](https://pixe.la/)
 - [a-know/pi: Official CLI tool for Pixela](https://github.com/a-know/pi)
 
@@ -16,8 +18,6 @@ This **Pixela Setup Action** can install **a-know/pi** to a virtual machine of G
 | OS (runs-on) | ubuntu-18.04 | macos-latest | windows-2019 |
 |---|:---:|:---:|:---:|
 | Support | ✅️ | ✅️ | ✅️ |
-
-<img width="400" alt="GitHub Actions for Pixela" src="./images/ogp.svg">
 
 
 
