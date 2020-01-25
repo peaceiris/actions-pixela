@@ -43,7 +43,7 @@ export async function run(): Promise<ActionResult> {
   };
 
   if (toolVersion === '' || toolVersion === 'latest') {
-    installVersion = await getLatestVersion(Tool.Org, Tool.Repo, 'github');
+    installVersion = await getLatestVersion(Tool.Org, Tool.Repo);
   } else {
     installVersion = toolVersion;
   }
