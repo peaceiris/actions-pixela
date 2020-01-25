@@ -15,7 +15,7 @@
 
 This **Pixela Setup Action** can install **a-know/pi** to a virtual machine of GitHub Actions. Linux (Ubuntu), macOS, and Windows are supported.
 
-| OS (runs-on) | ubuntu-18.04 | macos-latest | windows-2019 |
+| OS (runs-on) | ubuntu-18.04 | macos-latest | windows-latest |
 |---|:---:|:---:|:---:|
 | Support | ✅️ | ✅️ | ✅️ |
 
