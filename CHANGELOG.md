@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [2.1.0](https://github.com/peaceiris/actions-pixela/compare/v2.0.1...v2.1.0) (2020-01-26)
+
+
+### ci
+
+* fix install github/hub step [skip ci] ([c0e33d9](https://github.com/peaceiris/actions-pixela/commit/c0e33d9c3b1d38061303fe00f597ffeb70f110a4))
+* fix install github/hub step [skip ci] ([f9add57](https://github.com/peaceiris/actions-pixela/commit/f9add57dcf7eb09fadadf9296c152b6ed9b23e86))
+* use hub install script [skip ci] ([46921e5](https://github.com/peaceiris/actions-pixela/commit/46921e50f2e80a01ff83f80997087e2bb8c8f2a4))
+
+### docs
+
+* Add release feed badge ([a0d814b](https://github.com/peaceiris/actions-pixela/commit/a0d814b7f5649ec0ef5cbdaa1be3f38078df7c66))
+
+### feat
+
+* change required to false ([b81f991](https://github.com/peaceiris/actions-pixela/commit/b81f9916dfdb864f734ef8e98659d14930cf264e))
+
+
+
 ## [2.0.1](https://github.com/peaceiris/actions-pixela/compare/v2.0.0...v2.0.1) (2020-01-25)
 
 
