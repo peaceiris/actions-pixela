@@ -4,7 +4,7 @@ author: 'peaceiris'
 inputs:
   pi_version:
     description: 'A pi version to download (if necessary) and use.'
-    required: true
+    required: false
     default: '1.1.0'
 runs:
   using: 'node12'
