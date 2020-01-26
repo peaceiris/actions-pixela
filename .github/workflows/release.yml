@@ -28,7 +28,8 @@ jobs:
         run: |
           TAG_NAME="${GITHUB_REF##refs/tags/}"
           echo "See [CHANGELOG.md](https://github.com/${GITHUB_REPOSITORY}/blob/${TAG_NAME}/CHANGELOG.md) for more details." > ./release_notes.md
-          sed -i "1iRelease ${TAG_NAME}\n" ./release_notes.md
+          RELEASE_NAME="$(jq -r '.name' ./package.json)"
+          sed -i "1i${RELEASE_NAME} ${TAG_NAME}\n" ./release_notes.md
           ./bin/hub release create \
             --draft \
             --prerelease \
