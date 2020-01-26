@@ -3,6 +3,7 @@
 [![GitHub release date](https://img.shields.io/github/release-date/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases)
 [![GitHub Actions status](https://github.com/peaceiris/actions-pixela/workflows/Test/badge.svg)](https://github.com/peaceiris/actions-pixela/actions)
 [![codecov](https://codecov.io/gh/peaceiris/actions-pixela/branch/master/graph/badge.svg)](https://codecov.io/gh/peaceiris/actions-pixela)
+[![Release Feed](https://img.shields.io/badge/release-feed-yellow)](https://github.com/peaceiris/actions-pixela/releases.atom)
 
 <img width="400" alt="GitHub Actions for Pixela" src="./images/ogp.svg">
 
