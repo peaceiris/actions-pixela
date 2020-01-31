@@ -5,6 +5,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/peaceiris/actions-pixela/badge)](https://www.codefactor.io/repository/github/peaceiris/actions-pixela)
 [![codecov](https://codecov.io/gh/peaceiris/actions-pixela/branch/master/graph/badge.svg)](https://codecov.io/gh/peaceiris/actions-pixela)
 [![Release Feed](https://img.shields.io/badge/release-feed-yellow)](https://github.com/peaceiris/actions-pixela/releases.atom)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=peaceiris/actions-pixela)](https://dependabot.com)
 
 <img width="400" alt="GitHub Actions for Pixela" src="./images/ogp.svg">
 
