@@ -2,6 +2,46 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.1](https://github.com/peaceiris/actions-pixela/compare/v2.1.0...v2.1.1) (2020-02-04)
+
+
+### chore
+
+* Add CODEOWNERS ([80edbd5](https://github.com/peaceiris/actions-pixela/commit/80edbd5c04dd9188dc6cea41ed68b299d3888e4e))
+
+### ci
+
+* fix release name ([ce4362a](https://github.com/peaceiris/actions-pixela/commit/ce4362a52029041a11b0c9be951b6b1309749772))
+
+### deps
+
+* bump @types/jest from 24.9.1 to 25.1.0 (#12) ([2b3dddb](https://github.com/peaceiris/actions-pixela/commit/2b3dddb6313fe7e7f90d29f7e89af30776041add)), closes [#12](https://github.com/peaceiris/actions-pixela/issues/12)
+* bump @types/jest from 25.1.0 to 25.1.1 ([a8f3e1d](https://github.com/peaceiris/actions-pixela/commit/a8f3e1d13a0193fa2bfcf5d4e76e759ddde33c71))
+* bump @types/node from 13.5.0 to 13.5.1 ([784f015](https://github.com/peaceiris/actions-pixela/commit/784f0157a4eb9727055dfffc115da029cf4a1415))
+* bump @types/node from 13.5.1 to 13.5.2 ([25db025](https://github.com/peaceiris/actions-pixela/commit/25db025084839fe608bdde26b1bbf95cce0dea70))
+* bump @types/node from 13.5.2 to 13.5.3 ([50a884f](https://github.com/peaceiris/actions-pixela/commit/50a884f79d3c865c54a269897cb12e03d3381690))
+* bump @types/node from 13.5.3 to 13.7.0 ([6db4d2a](https://github.com/peaceiris/actions-pixela/commit/6db4d2a24511c9258fe4ec95224df80569de1045))
+* bump @typescript-eslint/eslint-plugin from 2.17.0 to 2.18.0 ([dd41a31](https://github.com/peaceiris/actions-pixela/commit/dd41a3136612a0a75a16a4c358384fbe3059cbab))
+* bump @typescript-eslint/eslint-plugin from 2.18.0 to 2.19.0 ([efb82c1](https://github.com/peaceiris/actions-pixela/commit/efb82c176dd2e72e82c6e521b7ae595407a8d33d))
+* bump @typescript-eslint/parser from 2.17.0 to 2.18.0 ([9a305e9](https://github.com/peaceiris/actions-pixela/commit/9a305e96dcf79bdc5e95e75865427c8e0910907b))
+* bump @typescript-eslint/parser from 2.18.0 to 2.19.0 ([093689c](https://github.com/peaceiris/actions-pixela/commit/093689cc68333e579bd4c3e35a803b6a8fb3b803))
+* bump lint-staged from 10.0.2 to 10.0.3 (#14) ([ea91876](https://github.com/peaceiris/actions-pixela/commit/ea91876f6b4639a74618c9f4924f76b127bd4840)), closes [#14](https://github.com/peaceiris/actions-pixela/issues/14)
+* bump lint-staged from 10.0.3 to 10.0.4 ([c515f23](https://github.com/peaceiris/actions-pixela/commit/c515f23c458d54680c9baf45252fd6bb68a43dd7))
+* bump lint-staged from 10.0.4 to 10.0.5 ([ca36eac](https://github.com/peaceiris/actions-pixela/commit/ca36eac791ae356fa7e0631e6c44f53606e2128d))
+* bump lint-staged from 10.0.5 to 10.0.6 ([e57291a](https://github.com/peaceiris/actions-pixela/commit/e57291a897277245c66adeb6b55e3637e32ae5b7))
+* bump lint-staged from 10.0.6 to 10.0.7 ([fd2c956](https://github.com/peaceiris/actions-pixela/commit/fd2c9562b487238f3fa91219d6fd4a0dbac6caf0))
+* bump ts-jest from 25.0.0 to 25.1.0 ([60ca06b](https://github.com/peaceiris/actions-pixela/commit/60ca06b9887fdbd8062a41e3bd7dab418675ada1))
+* bump ts-jest from 25.1.0 to 25.2.0 ([68da42c](https://github.com/peaceiris/actions-pixela/commit/68da42c73aba3eb301003316829491ff6739f7d8))
+
+### docs
+
+* Add CodeFactor badge ([7a8cddc](https://github.com/peaceiris/actions-pixela/commit/7a8cddca4699e877195469a38e91f11552db9692))
+* add Dependabot badge ([24a9958](https://github.com/peaceiris/actions-pixela/commit/24a99581e2ca691f7d6cf8fda131d97f9b9a84c2))
+* update badge link ([e2bb4ac](https://github.com/peaceiris/actions-pixela/commit/e2bb4ac90ba1872ec1cd10f4996db0e702dc582c))
+* update badge link ([5263898](https://github.com/peaceiris/actions-pixela/commit/52638989f8b14a16c0867a23710ae47dc5fd646b))
+
+
+
 # [2.1.0](https://github.com/peaceiris/actions-pixela/compare/v2.0.1...v2.1.0) (2020-01-26)
 
 
