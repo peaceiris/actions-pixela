@@ -144,12 +144,6 @@ jobs:
 
 [![GitHub Actions for Pixela CI Windows](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-win)](https://pixe.la/v1/users/peaceiris/graphs/gha-pi-ci-win.html)
 
-*Git Push Count*
-
-peaceiris blog repository (private)
-
-[![Push count of peaceiris's blog repository (private repository)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push)](https://pixe.la/v1/users/peaceiris/graphs/reveltb-push.html)
-
 <div align="right">
 <a href="#table-of-contents">Back to TOC ☝️</a>
 </div>
