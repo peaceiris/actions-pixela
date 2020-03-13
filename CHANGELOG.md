@@ -2,6 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.3](https://github.com/peaceiris/actions-pixela/compare/v2.1.2...v2.1.3) (2020-03-13)
+
+
+### chore
+
+* [ImgBot] Optimize images (#62) ([75ecf30](https://github.com/peaceiris/actions-pixela/commit/75ecf30d6773273fbe2aa496320b089494ab186c)), closes [#62](https://github.com/peaceiris/actions-pixela/issues/62)
+* format [skip ci] ([0c07e11](https://github.com/peaceiris/actions-pixela/commit/0c07e1176fad3db422b4dabd65913211659149ab))
+
+### ci
+
+* remove comment out lines ([2115a64](https://github.com/peaceiris/actions-pixela/commit/2115a6413afdc32d1f3b6e34da23a710f1c8d3c1))
+* update script link [skip ci] ([ee2134c](https://github.com/peaceiris/actions-pixela/commit/ee2134cfbc433872374fa5296352341ad0be4445))
+
+### deps
+
+* [security] bump acorn from 6.4.0 to 6.4.1 ([880f3fb](https://github.com/peaceiris/actions-pixela/commit/880f3fb822761e442c541708a1c3bfcf09f039ab))
+* bump @actions/core from 1.2.2 to 1.2.3 ([e4dccd3](https://github.com/peaceiris/actions-pixela/commit/e4dccd308e09a019d9651365c11358f29003d7cd))
+* bump @actions/tool-cache from 1.3.1 to 1.3.2 ([05e46a0](https://github.com/peaceiris/actions-pixela/commit/05e46a0aa2f203d75405bce261d6e2e97157590a))
+* bump @actions/tool-cache from 1.3.2 to 1.3.3 ([71bda29](https://github.com/peaceiris/actions-pixela/commit/71bda2938e07d8046017518a91d8d7de03c95edb))
+* bump @types/jest from 25.1.3 to 25.1.4 ([0038109](https://github.com/peaceiris/actions-pixela/commit/00381091876eb03a6796376dca6b60abee17cb8d))
+* bump @types/node from 12.12.28 to 12.12.29 ([48e8101](https://github.com/peaceiris/actions-pixela/commit/48e81015050b2e9c78b7e6350b16397093f7b353))
+* bump @types/node from 12.12.29 to 12.12.30 ([17e6cdb](https://github.com/peaceiris/actions-pixela/commit/17e6cdbd7739ad6f5340e485bbcd44d9112ef34e))
+* bump @typescript-eslint/eslint-plugin from 2.21.0 to 2.22.0 ([0280c72](https://github.com/peaceiris/actions-pixela/commit/0280c7272955630bfedbfd9bcef762ea0ee73c61))
+* bump @typescript-eslint/eslint-plugin from 2.22.0 to 2.23.0 ([de035e0](https://github.com/peaceiris/actions-pixela/commit/de035e0ec4d959f43f7fc49b9c5b7872ec106d0c))
+* bump @typescript-eslint/parser from 2.21.0 to 2.22.0 ([605f4fa](https://github.com/peaceiris/actions-pixela/commit/605f4fac80fb2934bb50c9b666b2b66fd3aff80a))
+* bump @typescript-eslint/parser from 2.22.0 to 2.23.0 ([8df596c](https://github.com/peaceiris/actions-pixela/commit/8df596c318016f4041eeabde7d162cb1cbc224d8))
+* bump eslint-plugin-jest from 23.8.0 to 23.8.1 ([84f28c0](https://github.com/peaceiris/actions-pixela/commit/84f28c072efbd74eedbdbce517f7976661be1377))
+* bump eslint-plugin-jest from 23.8.1 to 23.8.2 (#63) ([31951cf](https://github.com/peaceiris/actions-pixela/commit/31951cfd72c7b8b681f22a52d0754dfdcb2da6ea)), closes [#63](https://github.com/peaceiris/actions-pixela/issues/63)
+* bump hub 2.14.1 to 2.14.2 ([001b55c](https://github.com/peaceiris/actions-pixela/commit/001b55ca0f33e8ada1e6c47aa2cdc2f543c74368))
+* bump nock from 12.0.1 to 12.0.2 ([03e2844](https://github.com/peaceiris/actions-pixela/commit/03e2844370bbd74656a42070f7f2761e5c20cd77))
+* bump typescript from 3.8.2 to 3.8.3 ([60ac096](https://github.com/peaceiris/actions-pixela/commit/60ac096241c68f647f6314007ebbbe1d34355a11))
+* update (#66) ([ce4d9e8](https://github.com/peaceiris/actions-pixela/commit/ce4d9e83ac540ed315b559940c6c05f8aba99070)), closes [#66](https://github.com/peaceiris/actions-pixela/issues/66)
+
+
+
 ## [2.1.2](https://github.com/peaceiris/actions-pixela/compare/v2.1.1...v2.1.2) (2020-02-26)
 
 
