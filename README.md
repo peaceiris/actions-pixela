@@ -42,8 +42,6 @@ This **Pixela Setup Action** can install **a-know/pi** to a virtual machine of G
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-*TOC is generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
 
 
 ## Getting started
@@ -74,7 +72,7 @@ jobs:
       - name: Setup a-know/pi
         uses: peaceiris/actions-pixela@v2
         with:
-          pi_version: '1.1.0'
+          pi_version: '1.2.0'
 
       - name: Increment
         env:
@@ -115,7 +113,7 @@ jobs:
       - name: Setup pi
         uses: peaceiris/actions-pixela@v2
         with:
-          pi_version: '1.1.0'
+          pi_version: '1.2.0'
 
       - name: Increment
         env:
