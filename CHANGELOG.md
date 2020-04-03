@@ -2,6 +2,57 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.4](https://github.com/peaceiris/actions-pixela/compare/v2.1.3...v2.1.4) (2020-04-03)
+
+
+### ci
+
+* bump pi from 1.1.0 to 1.2.0 ([58fb805](https://github.com/peaceiris/actions-pixela/commit/58fb8052d225093f00685b2f01946ea36d0acf58))
+* set update_schedule live ([9e0c5ef](https://github.com/peaceiris/actions-pixela/commit/9e0c5efb7476f491d9d1de4c5907c01b32ef381a))
+
+### deps
+
+* bump @types/jest from 25.1.4 to 25.1.5 ([8cb18ab](https://github.com/peaceiris/actions-pixela/commit/8cb18abf1938bcc9c465649e65976e969ab0d15e))
+* bump @types/node from 12.12.30 to 12.12.31 ([925ec20](https://github.com/peaceiris/actions-pixela/commit/925ec20ed348cc54653c2ea6526a2ef0a63c1e2f))
+* bump @types/node from 12.12.31 to 12.12.32 ([6dff9f1](https://github.com/peaceiris/actions-pixela/commit/6dff9f12db9b468a707f0f503676b7f6865b2f3b))
+* bump @types/node from 12.12.32 to 12.12.34 ([615175a](https://github.com/peaceiris/actions-pixela/commit/615175ab831451951d0173ecdedeadd300eb2c3c))
+* bump @typescript-eslint/eslint-plugin from 2.23.0 to 2.24.0 (#73) ([4143c14](https://github.com/peaceiris/actions-pixela/commit/4143c14add0b424415edb7e136d37e2416401f3e)), closes [#73](https://github.com/peaceiris/actions-pixela/issues/73)
+* bump @typescript-eslint/eslint-plugin from 2.24.0 to 2.25.0 ([a02ba4c](https://github.com/peaceiris/actions-pixela/commit/a02ba4cf105cbf518e92f5daf3f13931f694499e))
+* bump @typescript-eslint/eslint-plugin from 2.25.0 to 2.26.0 ([23308e0](https://github.com/peaceiris/actions-pixela/commit/23308e01d72d6d6189fdb82012f0b33907088c93))
+* bump @typescript-eslint/parser from 2.23.0 to 2.24.0 ([8a732e3](https://github.com/peaceiris/actions-pixela/commit/8a732e35115a20734d6496f65cf43eeedecb66c3))
+* bump @typescript-eslint/parser from 2.24.0 to 2.25.0 ([6ebad83](https://github.com/peaceiris/actions-pixela/commit/6ebad832c65a749be16e9282ae867644c0d870e5))
+* bump @typescript-eslint/parser from 2.25.0 to 2.26.0 ([25aa049](https://github.com/peaceiris/actions-pixela/commit/25aa049c098d2ef14f291529ebd663b4a4de98a4))
+* bump @zeit/ncc from 0.21.1 to 0.22.0 ([24f42d8](https://github.com/peaceiris/actions-pixela/commit/24f42d8353b921c991a80f002c3cce02bc56f45e))
+* bump jest from 25.1.0 to 25.2.0 ([84b102e](https://github.com/peaceiris/actions-pixela/commit/84b102e5fc4e26f248e86b191940778bd4ea2c97))
+* bump jest from 25.2.0 to 25.2.1 ([1b5332d](https://github.com/peaceiris/actions-pixela/commit/1b5332df3fc5f126a196d14a29eadb872723ef12))
+* bump jest from 25.2.1 to 25.2.2 ([cdd4466](https://github.com/peaceiris/actions-pixela/commit/cdd4466b65dfbfe4fc652c581e2954700d8e633e))
+* bump jest from 25.2.2 to 25.2.3 ([6dff9e9](https://github.com/peaceiris/actions-pixela/commit/6dff9e936c2df8e38037212e2129e7528813f82b))
+* bump jest from 25.2.3 to 25.2.4 ([272b7aa](https://github.com/peaceiris/actions-pixela/commit/272b7aa86aee74584df9d2eb63a8cb5cc59c7997))
+* bump jest from 25.2.4 to 25.2.6 ([880ac3f](https://github.com/peaceiris/actions-pixela/commit/880ac3f4969b43ea5d8e75823d2e1c1a146e5b50))
+* bump jest from 25.2.6 to 25.2.7 ([14c1ff7](https://github.com/peaceiris/actions-pixela/commit/14c1ff78d2872c0f1428a583dd25694336f959f4))
+* bump jest-circus from 25.1.0 to 25.2.0 ([63689db](https://github.com/peaceiris/actions-pixela/commit/63689dbc050d6ec89091adc53e8cce9e1d6f2d98))
+* bump jest-circus from 25.2.0 to 25.2.1 ([bfa05c7](https://github.com/peaceiris/actions-pixela/commit/bfa05c7cc7b2b2960284b64cbcb7de198e90b40d))
+* bump jest-circus from 25.2.1 to 25.2.2 ([f4634bd](https://github.com/peaceiris/actions-pixela/commit/f4634bd5471db17f4287b8e2c68547e6542bc631))
+* bump jest-circus from 25.2.2 to 25.2.3 ([8d5e833](https://github.com/peaceiris/actions-pixela/commit/8d5e83388a5a278d11feebe5d1375291a38ff239))
+* bump jest-circus from 25.2.3 to 25.2.4 ([6773f41](https://github.com/peaceiris/actions-pixela/commit/6773f4174d48166a1083d7b75838c98a1d0b3028))
+* bump jest-circus from 25.2.4 to 25.2.6 ([f85472b](https://github.com/peaceiris/actions-pixela/commit/f85472bfd86b888277b3a4adeeb712eb79dbc7ad))
+* bump jest-circus from 25.2.6 to 25.2.7 ([9906b4b](https://github.com/peaceiris/actions-pixela/commit/9906b4bdac0840c17ca2efc32c7e2edc1e2115db))
+* bump lint-staged from 10.0.10 to 10.1.0 ([d3342db](https://github.com/peaceiris/actions-pixela/commit/d3342dbe0efd03cf4e979edeac0b7379a8ba0318))
+* bump lint-staged from 10.0.8 to 10.0.9 ([cb8187c](https://github.com/peaceiris/actions-pixela/commit/cb8187c5b7ffbf814016c02868b538d89d04e850))
+* bump lint-staged from 10.0.9 to 10.0.10 ([c43852a](https://github.com/peaceiris/actions-pixela/commit/c43852af599c9b31680401b2f7716758f5ca2d3d))
+* bump lint-staged from 10.1.0 to 10.1.1 ([796f46c](https://github.com/peaceiris/actions-pixela/commit/796f46c0b3463db4704653d14169b1c9c0cf3ad0))
+* bump nock from 12.0.2 to 12.0.3 ([6062fca](https://github.com/peaceiris/actions-pixela/commit/6062fca362a3b79936e2f4132ec8e3f7b8a243c1))
+* bump prettier from 1.19.1 to 2.0.1 ([52a9d39](https://github.com/peaceiris/actions-pixela/commit/52a9d3994d764fc851fb5d58d77107ccd95b4816))
+* bump prettier from 2.0.1 to 2.0.2 ([698548a](https://github.com/peaceiris/actions-pixela/commit/698548a2795c6f445d22f942a457c5e0194ee7d1))
+* bump ts-jest from 25.2.1 to 25.3.0 ([569e49f](https://github.com/peaceiris/actions-pixela/commit/569e49fb8e23d1afff1b06bf37c06a21a9fd23f8))
+* bump ts-jest from 25.3.0 to 25.3.1 ([7a2630f](https://github.com/peaceiris/actions-pixela/commit/7a2630f465c975640dbf8f3dae4d7890e0bb39bd))
+
+### docs
+
+* bump pi from 1.1.0 to 1.2.0 ([56befa1](https://github.com/peaceiris/actions-pixela/commit/56befa10536672186cc555b864863f4ee97025ea))
+
+
+
 ## [2.1.3](https://github.com/peaceiris/actions-pixela/compare/v2.1.2...v2.1.3) (2020-03-13)
 
 
