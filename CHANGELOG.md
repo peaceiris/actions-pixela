@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.5](https://github.com/peaceiris/actions-pixela/compare/v2.1.4...v2.1.5) (2020-04-15)
+
+
+### ci
+
+* Add automerged_updates [skip ci] ([effb3e1](https://github.com/peaceiris/actions-pixela/commit/effb3e17ff76907d8e99b4a2649960c691633410))
+* delete CODEOWNERS [skip ci] ([82ab096](https://github.com/peaceiris/actions-pixela/commit/82ab096020e1fade58a5b5155671fbb689379924))
+
+### deps
+
+* bump @types/jest from 25.1.5 to 25.2.1 (#109) ([7212c48](https://github.com/peaceiris/actions-pixela/commit/7212c485c68a5f0339b4b53c51244198cc2fdd6a)), closes [#109](https://github.com/peaceiris/actions-pixela/issues/109)
+* bump @types/node from 12.12.34 to 12.12.35 ([d344012](https://github.com/peaceiris/actions-pixela/commit/d3440128b7fb551a659a831ba90c5c93b4acd0b7))
+* bump @types/node-fetch from 2.5.5 to 2.5.6 (#122) ([0a79cb5](https://github.com/peaceiris/actions-pixela/commit/0a79cb501493ae6fd36691865e175d003752ad5f)), closes [#122](https://github.com/peaceiris/actions-pixela/issues/122)
+* bump @typescript-eslint/eslint-plugin from 2.26.0 to 2.27.0 ([21775ca](https://github.com/peaceiris/actions-pixela/commit/21775ca34ce2096fa98288e51559d0a68f430e46))
+* bump @typescript-eslint/eslint-plugin from 2.27.0 to 2.28.0 ([85fc9b5](https://github.com/peaceiris/actions-pixela/commit/85fc9b5983d2e30ce6ecd4279b2a27e09cbc4c29))
+* bump @typescript-eslint/parser from 2.26.0 to 2.27.0 ([85fe192](https://github.com/peaceiris/actions-pixela/commit/85fe192c5c3fcf0eb0d99d06525bb561c081711c))
+* bump @typescript-eslint/parser from 2.27.0 to 2.28.0 ([24ae4e2](https://github.com/peaceiris/actions-pixela/commit/24ae4e2aafd46c4ea16b4dfaf113fc3df658f950))
+* bump @zeit/ncc from 0.22.0 to 0.22.1 ([94314dd](https://github.com/peaceiris/actions-pixela/commit/94314dd0ac58b65368c35d1388d7d3bb5483f9fb))
+* bump husky from 4.2.3 to 4.2.4 ([beeb211](https://github.com/peaceiris/actions-pixela/commit/beeb211c9301afc104e78a6493402e5e77d5415b))
+* bump husky from 4.2.4 to 4.2.5 ([12fa752](https://github.com/peaceiris/actions-pixela/commit/12fa7523f0878e31da7397b3915e6cffd6b61421))
+* bump jest from 25.2.7 to 25.3.0 ([7b74558](https://github.com/peaceiris/actions-pixela/commit/7b745583a5830dc4b8f679d121d0f812ac53e899))
+* bump jest-circus from 25.2.7 to 25.3.0 ([11474b0](https://github.com/peaceiris/actions-pixela/commit/11474b03e32eace65d90bdd7a090357e37b795da))
+* bump lint-staged from 10.1.1 to 10.1.2 ([e5a0a59](https://github.com/peaceiris/actions-pixela/commit/e5a0a5925bf1a19c21826a420352ef8791b664fb))
+* bump lint-staged from 10.1.2 to 10.1.3 ([8daf18f](https://github.com/peaceiris/actions-pixela/commit/8daf18f2d4cdf464c9a89b1d110e7c28c6259c08))
+* bump prettier from 2.0.2 to 2.0.4 ([d09bd59](https://github.com/peaceiris/actions-pixela/commit/d09bd59ddd4524ff341d3a49b46baf35c328bcb2))
+* npm audit fix ([abc01ea](https://github.com/peaceiris/actions-pixela/commit/abc01ea23366fd482cf64aa92e96be6cacca412e))
+
+
+
 ## [2.1.4](https://github.com/peaceiris/actions-pixela/compare/v2.1.3...v2.1.4) (2020-04-03)
 
 
