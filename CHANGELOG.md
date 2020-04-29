@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.6](https://github.com/peaceiris/actions-pixela/compare/v2.1.5...v2.1.6) (2020-04-29)
+
+
+### ci
+
+* add push ([3715e31](https://github.com/peaceiris/actions-pixela/commit/3715e317261b481e784eb9e1829759a33382573d))
+* comment out push ([c317c8c](https://github.com/peaceiris/actions-pixela/commit/c317c8c34dbb48848ffd316869632908024fff53))
+* delete stale workflow ([940732d](https://github.com/peaceiris/actions-pixela/commit/940732d5181948de01c112a276c3e24784c3b741))
+* run daily testing [skip ci] ([203b346](https://github.com/peaceiris/actions-pixela/commit/203b34644bb26a0af723f32b1bf886b1b6473836))
+
+### deps
+
+* bump @types/node from 12.12.35 to 12.12.36 ([3746dd9](https://github.com/peaceiris/actions-pixela/commit/3746dd9a2bff26aece94939dc396fdda74a5141b))
+* bump @types/node from 12.12.36 to 12.12.37 ([501ebd1](https://github.com/peaceiris/actions-pixela/commit/501ebd10c66d3d9af06ce0e3299edeb915bb3ba9))
+* bump @types/node-fetch from 2.5.6 to 2.5.7 ([6ce1674](https://github.com/peaceiris/actions-pixela/commit/6ce16740769ea3af8dd28e726c372ed62cdd902a))
+* bump jest from 25.3.0 to 25.5.0 ([423b913](https://github.com/peaceiris/actions-pixela/commit/423b9138440d6e9ae7ad210f63322140e83776df))
+* bump jest-circus from 25.3.0 to 25.5.0 ([9fcd50b](https://github.com/peaceiris/actions-pixela/commit/9fcd50b8943c02f718da248c88fa33422d5e7c76))
+* bump lint-staged from 10.1.3 to 10.1.4 ([211cdd4](https://github.com/peaceiris/actions-pixela/commit/211cdd497de328a6dc1cd1a657c8067b58a42348))
+* bump lint-staged from 10.1.4 to 10.1.5 ([cf94b4b](https://github.com/peaceiris/actions-pixela/commit/cf94b4b384548a8db4daac72b8e0bdcfc84aa453))
+* bump lint-staged from 10.1.5 to 10.1.6 ([e9fc8ff](https://github.com/peaceiris/actions-pixela/commit/e9fc8ff4e55036a4ff7156b2715104c8a8c8474c))
+* bump lint-staged from 10.1.6 to 10.2.0 ([60b82e8](https://github.com/peaceiris/actions-pixela/commit/60b82e89321015f258d9e2bfed78f691646b0c76))
+* bump ts-jest from 25.3.1 to 25.4.0 ([337e78e](https://github.com/peaceiris/actions-pixela/commit/337e78ed2388b01325e336b7b7ed98e371d18473))
+
+
+
 ## [2.1.5](https://github.com/peaceiris/actions-pixela/compare/v2.1.4...v2.1.5) (2020-04-15)
 
 
