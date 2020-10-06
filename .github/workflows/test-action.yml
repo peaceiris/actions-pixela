@@ -1,9 +1,9 @@
 name: Daily Test
 
 on:
-  # push:
   schedule:
     - cron: '16 16 * * *'
+  workflow_dispatch:
 
 jobs:
   test:
