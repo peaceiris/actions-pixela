@@ -1,6 +1,6 @@
 {
   "name": "actions-pixela",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "description": "GitHub Actions for Pixela (a-know/pi)",
   "main": "lib/index.js",
   "engines": {
