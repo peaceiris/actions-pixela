@@ -61,7 +61,7 @@ name: pixela
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   increment:
@@ -89,7 +89,7 @@ name: 'Test'
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
