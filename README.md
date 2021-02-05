@@ -11,12 +11,12 @@ This **Pixela Setup Action** can install **a-know/pi** to a virtual machine of G
 |---|:---:|:---:|:---:|
 | Support | ✅️ | ✅️ | ✅️ |
 
-[![license](https://img.shields.io/github/license/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/blob/main/LICENSE)
 [![release](https://img.shields.io/github/release/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases/latest)
 [![GitHub release date](https://img.shields.io/github/release-date/peaceiris/actions-pixela.svg)](https://github.com/peaceiris/actions-pixela/releases)
-[![Test](https://github.com/peaceiris/actions-pixela/workflows/Test/badge.svg?branch=master&event=push)](https://github.com/peaceiris/actions-pixela/actions?query=workflow%3ATest)
+[![Test](https://github.com/peaceiris/actions-pixela/workflows/Test/badge.svg?branch=main&event=push)](https://github.com/peaceiris/actions-pixela/actions?query=workflow%3ATest)
 [![CodeFactor](https://www.codefactor.io/repository/github/peaceiris/actions-pixela/badge)](https://www.codefactor.io/repository/github/peaceiris/actions-pixela)
-[![codecov](https://codecov.io/gh/peaceiris/actions-pixela/branch/master/graph/badge.svg)](https://codecov.io/gh/peaceiris/actions-pixela)
+[![codecov](https://codecov.io/gh/peaceiris/actions-pixela/branch/main/graph/badge.svg)](https://codecov.io/gh/peaceiris/actions-pixela)
 [![Release Feed](https://img.shields.io/badge/release-feed-yellow)](https://github.com/peaceiris/actions-pixela/releases.atom)
 
 
@@ -155,7 +155,7 @@ jobs:
 
 - [MIT License - peaceiris/actions-pixela]
 
-[MIT License - peaceiris/actions-pixela]: https://github.com/peaceiris/actions-pixela/blob/master/LICENSE
+[MIT License - peaceiris/actions-pixela]: https://github.com/peaceiris/actions-pixela/blob/main/LICENSE
 
 
 
